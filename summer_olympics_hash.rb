@@ -12,7 +12,7 @@ end
 def add_a_key_value_pair
   create_olympics_hash["Atlana"] = "1996" 
 end
-add_a_key_value_pair
+# add_a_key_value_pair
 
 def iterate_through_hash
  locations = summer_olympics.keys
@@ -21,6 +21,7 @@ def iterate_through_hash
    puts "The #{years} summer olympics took place in #{locations}"
  end 
 end
+iterate_through_keys
 
 def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
