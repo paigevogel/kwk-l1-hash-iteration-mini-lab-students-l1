@@ -5,8 +5,9 @@ def create_olympics_hash
     "Beijing" => "2008",
     "London" => "2012"
   }
+  puts summer_olympics
 end
-puts summer_olympics
+
 
 def add_a_key_value_pair
   create_olympics_hash["Atlana"] = "1996" 
