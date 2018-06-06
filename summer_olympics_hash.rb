@@ -10,7 +10,7 @@ end
 puts summer_olympics
 
 def add_a_key_value_pair
-  create_olympics_hash[]
+  create_olympics_hash[atlana] = 
 end
 
 def iterate_through_hash
