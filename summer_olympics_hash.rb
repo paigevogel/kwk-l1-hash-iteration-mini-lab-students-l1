@@ -15,7 +15,9 @@ end
 def iterate_through_hash
  locations = summer_olympics.keys
  years = summer_olympics.values
+ index = 0 
  summer_olympics.each do |locations, years|
+   
    puts "The #{years} summer olympics took place in #{locations}"
 end
 
