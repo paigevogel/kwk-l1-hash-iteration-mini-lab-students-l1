@@ -15,9 +15,7 @@ end
 def iterate_through_hash
  locations = summer_olympics.keys
  years = summer_olympics.values
- index = 0 
  summer_olympics.each do |locations, years|
-   index =+ 1 
    puts "The #{years} summer olympics took place in #{locations}"
 end
 
@@ -25,4 +23,4 @@ def iterate_through_keys
   # Implement this method so that it converts the keys of the hash created in add_a_key_value_pair
   # into uppercased Strings, creates a new array with these values, and then puts each upcase key in the CLI
 end
-iterate_through_keys
+
